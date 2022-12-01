@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,800;1,300&display=swap');
+
+/*Container*/
+body{
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+   
+  }
+#head{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height: 60px;
+    display: flex;
+    font-size: 40px;
+  }
+.flex-container{
+   padding: 30px;
+   display:flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   background-color: #51595f;
+   opacity: 0.95;
+     
+}
+
+/*Cards */
+/*in card  , color is font color*/
+.card
+{
+    color:blueviolet;
+    position: relative;
+    margin: 10px;
+    width: 450px;
+    height: 100%;
+    align-items: center;
+    transform-origin: bottom;
+    transition: 0.5s;
+    
+    
+}
+/*in card body , color is font color*/
+.card-body
+{
+    color:blueviolet;
+    font-weight:700;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+/*cardbackgroundcolor*/
+#cardcolor
+{
+    background-color:chartreuse;
+}
+/*No. Of Cases*/
+.card-text
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    ;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;  
+      /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: white;         /* Footer height */
+  }
+
+  #preloader{
+    position:fixed;
+    background:rgb(33, 33, 33)url('images/loader.gif') no-repeat center;
+    background-size: 240px;
+    height:100vh;
+    width: 100%;
+    z-index: 100;
+}
